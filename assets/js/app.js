@@ -1,3 +1,6 @@
+// رز | سیستم حسابداری - JavaScript extracted from the original project
+
+/* ===== Original script 1 ===== */
 const titles = {
     dashboard: 'داشبورد', vouchers: 'اسناد حسابداری', new_voucher: 'ثبت سند جدید',
     accounts: 'سرفصل‌ها', new_account: 'سرفصل جدید', transactions: 'دریافت و پرداخت',
@@ -49,6 +52,7 @@ document.querySelectorAll('.logo-circle').forEach(img => {
 const initial = window.location.hash.slice(1) || '<?= e($_SESSION['last_action'] ?? 'dashboard') ?>';
 showPage(initial);
 
+/* ===== Original script 2 ===== */
 document.querySelectorAll('.nav-link').forEach(link => {
     link.addEventListener('click', function(e) {
         e.preventDefault();
@@ -58,6 +62,7 @@ document.querySelectorAll('.nav-link').forEach(link => {
     });
 });
 
+/* ===== Original script 3 ===== */
 document.querySelectorAll('.nav-link').forEach(link => {
     link.addEventListener('click', function(e) {
         e.preventDefault();
@@ -66,6 +71,7 @@ document.querySelectorAll('.nav-link').forEach(link => {
     });
 });
 
+/* ===== Original script 4 ===== */
 function addRow() {
     const tbody = document.querySelector('#voucherItems tbody');
     const row = tbody.querySelector('tr').cloneNode(true);
@@ -93,6 +99,7 @@ document.querySelectorAll('.nav-link').forEach(link => {
     });
 });
 
+/* ===== Original script 5 ===== */
 document.querySelectorAll('.nav-link').forEach(link => {
     link.addEventListener('click', function(e) {
         e.preventDefault();
@@ -101,6 +108,7 @@ document.querySelectorAll('.nav-link').forEach(link => {
     });
 });
 
+/* ===== Original script 6 ===== */
 document.querySelectorAll('.nav-link').forEach(link => {
     link.addEventListener('click', function(e) {
         e.preventDefault();
@@ -109,6 +117,7 @@ document.querySelectorAll('.nav-link').forEach(link => {
     });
 });
 
+/* ===== Original script 7 ===== */
 document.querySelectorAll('.nav-link').forEach(link => {
     link.addEventListener('click', function(e) {
         e.preventDefault();
@@ -117,6 +126,7 @@ document.querySelectorAll('.nav-link').forEach(link => {
     });
 });
 
+/* ===== Original script 8 ===== */
 document.querySelectorAll('.nav-link').forEach(link => {
     link.addEventListener('click', function(e) {
         e.preventDefault();
@@ -125,6 +135,7 @@ document.querySelectorAll('.nav-link').forEach(link => {
     });
 });
 
+/* ===== Original script 9 ===== */
 document.querySelectorAll('.nav-link').forEach(link => {
     link.addEventListener('click', function(e) {
         e.preventDefault();
@@ -133,6 +144,7 @@ document.querySelectorAll('.nav-link').forEach(link => {
     });
 });
 
+/* ===== Original script 10 ===== */
 document.querySelectorAll('.nav-link').forEach(link => {
     link.addEventListener('click', function(e) {
         e.preventDefault();
@@ -141,6 +153,7 @@ document.querySelectorAll('.nav-link').forEach(link => {
     });
 });
 
+/* ===== Original script 11 ===== */
 document.querySelectorAll('.nav-link').forEach(link => {
     link.addEventListener('click', function(e) {
         e.preventDefault();
@@ -149,6 +162,7 @@ document.querySelectorAll('.nav-link').forEach(link => {
     });
 });
 
+/* ===== Original script 12 ===== */
 document.querySelectorAll('.nav-link').forEach(link => {
     link.addEventListener('click', function(e) {
         e.preventDefault();
@@ -157,6 +171,7 @@ document.querySelectorAll('.nav-link').forEach(link => {
     });
 });
 
+/* ===== Original script 13 ===== */
 document.querySelectorAll('.nav-link').forEach(link => {
     link.addEventListener('click', function(e) {
         e.preventDefault();
@@ -165,6 +180,7 @@ document.querySelectorAll('.nav-link').forEach(link => {
     });
 });
 
+/* ===== Original script 14 ===== */
 document.querySelectorAll('.nav-link').forEach(link => {
     link.addEventListener('click', function(e) {
         e.preventDefault();
@@ -173,6 +189,7 @@ document.querySelectorAll('.nav-link').forEach(link => {
     });
 });
 
+/* ===== Original script 15 ===== */
 document.querySelectorAll('.nav-link').forEach(link => {
     link.addEventListener('click', function(e) {
         e.preventDefault();
@@ -181,6 +198,7 @@ document.querySelectorAll('.nav-link').forEach(link => {
     });
 });
 
+/* ===== Original script 16 ===== */
 document.querySelectorAll('.nav-link').forEach(link => {
     link.addEventListener('click', function(e) {
         e.preventDefault();
@@ -189,6 +207,7 @@ document.querySelectorAll('.nav-link').forEach(link => {
     });
 });
 
+/* ===== Original script 17 ===== */
 document.querySelectorAll('.nav-link').forEach(link => {
     link.addEventListener('click', function(e) {
         e.preventDefault();
@@ -197,6 +216,7 @@ document.querySelectorAll('.nav-link').forEach(link => {
     });
 });
 
+/* ===== Original script 18 ===== */
 document.querySelectorAll('.nav-link').forEach(link => {
     link.addEventListener('click', function(e) {
         e.preventDefault();
@@ -205,6 +225,7 @@ document.querySelectorAll('.nav-link').forEach(link => {
     });
 });
 
+/* ===== Original script 19 ===== */
 document.querySelectorAll('.nav-link').forEach(link => {
     link.addEventListener('click', function(e) {
         e.preventDefault();
@@ -213,6 +234,7 @@ document.querySelectorAll('.nav-link').forEach(link => {
     });
 });
 
+/* ===== Original script 20 ===== */
 document.querySelectorAll('.nav-link').forEach(link => {
     link.addEventListener('click', function(e) {
         e.preventDefault();
@@ -221,6 +243,7 @@ document.querySelectorAll('.nav-link').forEach(link => {
     });
 });
 
+/* ===== Original script 21 ===== */
 document.querySelectorAll('.nav-link').forEach(link => {
     link.addEventListener('click', function(e) {
         e.preventDefault();
@@ -229,6 +252,7 @@ document.querySelectorAll('.nav-link').forEach(link => {
     });
 });
 
+/* ===== Original script 22 ===== */
 function addPurchaseRow() {
     const tbody = document.querySelector('#purchaseItems tbody');
     const row = tbody.querySelector('tr').cloneNode(true);
@@ -259,6 +283,7 @@ document.querySelectorAll('.nav-link').forEach(link => {
     });
 });
 
+/* ===== Original script 23 ===== */
 document.querySelectorAll('.nav-link').forEach(link => {
     link.addEventListener('click', function(e) {
         e.preventDefault();
@@ -267,6 +292,7 @@ document.querySelectorAll('.nav-link').forEach(link => {
     });
 });
 
+/* ===== Original script 24 ===== */
 function addSaleRow() {
     const tbody = document.querySelector('#saleItems tbody');
     const row = tbody.querySelector('tr').cloneNode(true);
@@ -297,6 +323,7 @@ document.querySelectorAll('.nav-link').forEach(link => {
     });
 });
 
+/* ===== Original script 25 ===== */
 document.querySelectorAll('.nav-link').forEach(link => {
     link.addEventListener('click', function(e) {
         e.preventDefault();
@@ -305,6 +332,7 @@ document.querySelectorAll('.nav-link').forEach(link => {
     });
 });
 
+/* ===== Original script 26 ===== */
 document.querySelectorAll('.nav-link').forEach(link => {
     link.addEventListener('click', function(e) {
         e.preventDefault();
@@ -313,6 +341,7 @@ document.querySelectorAll('.nav-link').forEach(link => {
     });
 });
 
+/* ===== Original script 27 ===== */
 document.querySelectorAll('.nav-link').forEach(link => {
     link.addEventListener('click', function(e) {
         e.preventDefault();
@@ -321,6 +350,7 @@ document.querySelectorAll('.nav-link').forEach(link => {
     });
 });
 
+/* ===== Original script 28 ===== */
 document.querySelectorAll('.nav-link').forEach(link => {
     link.addEventListener('click', function(e) {
         e.preventDefault();
@@ -329,6 +359,7 @@ document.querySelectorAll('.nav-link').forEach(link => {
     });
 });
 
+/* ===== Original script 29 ===== */
 document.querySelectorAll('.nav-link').forEach(link => {
     link.addEventListener('click', function(e) {
         e.preventDefault();
@@ -337,6 +368,7 @@ document.querySelectorAll('.nav-link').forEach(link => {
     });
 });
 
+/* ===== Original script 30 ===== */
 document.querySelectorAll('.nav-link').forEach(link => {
     link.addEventListener('click', function(e) {
         e.preventDefault();
@@ -344,3 +376,4 @@ document.querySelectorAll('.nav-link').forEach(link => {
         showPage(this.dataset.action);
     });
 });
+
